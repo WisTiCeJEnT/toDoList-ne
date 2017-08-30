@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  margin: auto 15px;
+}
+.header {
+  margin: 50px auto;
+  color: black;
+  background: white;
+}
+.content{
+  display: flex;
+}
+.todo-input{
+  flex: 1;
+  font-size: 40px;
+}
+.todo-bth{
+  width: 100px;
+  height: 50px;
+}
+.todo {
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  border: 1px black solid;
+  flex: 1;
+}
+.remove-bth{
+  width: 100px;
+  height: 56px;
+  background: red;
+  color: white 
+}
+.todo-wrapper{
+  display: flex;
+  align-items: center;
+}
+.input-checkbox{
+  width: 80px;
+  height: 40px;
+  text-align: center;
+}
